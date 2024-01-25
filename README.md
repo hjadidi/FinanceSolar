@@ -1,5 +1,5 @@
 # FinanceSolar
-Default Probability Estimation via Closed-form formula and Monte Carlo Simulation. The code relates to the submitted manuscript to the Energy Economics Journal titled "Risk Mitigation in Project Finance for Utility-Scale Solar PV Projects.[1]" <br>
+Default Probability Estimation via Closed-form formula and Monte Carlo Simulation. The code relates to the submitted manuscript to the Energy Economics Journal titled "Risk Mitigation in Project Finance for Utility-Scale Solar PV Projects." [1] <br>
 The code estimates the cumulative first passage default probability of project finance loans for utility-scale solar PV projects. This probability is used to price Credit Default Swap. The details of the method are available in the mentioned manuscript. The code output, "df," is the cumulative default probability for each year of the loan life at a determined leverage ratio (L). The user can change input data, including the energy yield of a solar power plant and the characteristics of the project finance loan. It is also important to choose an appropriate uncertainty of the energy yield of a solar power plant in your location. To estimate this uncertainty, refer to [2], [3]. 
 
 [1] <br>
