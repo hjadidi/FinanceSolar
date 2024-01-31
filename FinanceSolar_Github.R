@@ -31,8 +31,8 @@ WorkingCapital <- 0
 Capex <- 0
 Derv_cost <- 0
 Degradation <- 0.5/100      #solar panel degradation in each year
-Cost <- 600000              #Cost of Capital for Each MW
-TotalCost <- cap*Cost       #Total cost of capital
+Cost <- 600000              #Cost of Installation for Each MW
+TotalCost <- cap*Cost       #Total cost
 Opex <- 0.5/100*TotalCost   #Yearly Operating Expenditure
 rd <- 0.04                  #Cost of Debt
 rf <- 0.03                  #risk free rate
